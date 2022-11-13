@@ -72,12 +72,6 @@ export default function App() {
             <Stack.Screen
               name="MealsOverview"
               component={MealsOverviewScreen}
-              // options={({route, navigation}) => {            // Dinamically options
-              //   const catId = route.params.categoryId;
-              //   return {
-              //       title: catId,
-              //   };
-              // }}
             />
             <Stack.Screen
               name="MealDetail"
